@@ -39,4 +39,11 @@ END
 Exemple d'appel 
 
 select * from table(info_cde(pNDOC => '13002083', pState => 'ACTIVE')) 
+
+*****RESULTAT ******
+NUM_DOC        DATE_CDE   NUM_CLIENT  CODE_SOLDE  CODE_00001            QTE_CDE 
+13002083     20.190.506    000000EB               000000EBSTOCK           1,000 
+13002083     20.190.506    000000EB               000000EBSTOCK           1,000 
+13002083     20.190.506    000000EB               000000EBSTOCK           1,000 
+
 */
