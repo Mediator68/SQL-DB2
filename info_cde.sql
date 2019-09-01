@@ -35,7 +35,8 @@ RETURN select * from QTEMP/info_cde;
 END 
 
  
-
+/*
 Exemple d'appel 
 
 select * from table(info_cde(pNDOC => '13002083', pState => 'ACTIVE')) 
+*/
