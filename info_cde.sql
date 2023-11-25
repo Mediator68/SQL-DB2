@@ -33,6 +33,9 @@ where A.NDOC=pNDOC ;
 END IF; 
 RETURN select * from QTEMP.info_cde; 
 END 
+/* je rajoute des commentaires */
+/*encore un texte */
+
 
  
 /*
